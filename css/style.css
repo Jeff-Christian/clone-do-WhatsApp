@@ -88,3 +88,37 @@ html, body{
 .activate-notification{
     font-size: 13px;
 }
+
+/* search */
+
+.search-container{
+    height: 50px;
+    width: 100%;
+    position: relative;
+    padding-left: 7.5px;
+    padding-top: 7.5px;
+    box-sizing: border-box;
+    color: #BDC1C3;
+    background-color: #f8f8f8;
+}
+
+#contact-search{
+    position: absolute;
+    left: 30px;
+    top: 18px;
+    font-size: 14px;
+}
+
+#search{
+    border: none;
+    box-sizing: border-box;
+    border-radius: 17.5px;
+    width: 385px;
+    height: 35px;
+    background-color: #FFF;
+    padding-left: 60px;
+}
+
+#search::placeholder{
+    color: #BDC1C3;
+}
