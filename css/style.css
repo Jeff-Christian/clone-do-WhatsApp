@@ -210,3 +210,14 @@ html, body{
     background-color: #09D261;
     border-radius: 50%;
 }
+
+/* Chat */
+
+.chat-container{
+    position: absolute;
+    width: calc(100% - 410px);
+    height: 100%;
+    top: 0;
+    left: 410px;
+    background-color: #CCC;
+}
