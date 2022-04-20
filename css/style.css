@@ -261,3 +261,74 @@ html, body{
     color: #80868A;
     cursor: pointer;
 }
+
+/* Messages container */
+
+.messages-container{
+    position: relative;
+    height: calc(100% - 120px);
+    background-color: #E1DAD2;
+}
+
+.messages-container p{
+    margin: 0;
+}
+
+.bg-image{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/background_whats.png);
+    background-repeat: repeat;
+    opacity: 0.06;
+}
+
+.chat-messages{
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    padding: 30px 80px;
+}
+
+.chat-messages p{
+    display: block;
+    position: relative;
+    width: 200px;
+    border-radius: 7px;
+    padding: 7px;
+    font-size: 14px;
+    color: #262626;
+}
+
+.guest-message{
+    background-color: #FFF;
+}
+
+.guest-message::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    left: -10px;
+    border-bottom: 17px solid transparent;
+    border-right: 17px solid #FFF;
+}
+
+.user-message{
+    float: right;
+    background-color: #DCF8C6;
+}
+
+.user-message::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: -10px;
+    border-bottom: 17px solid transparent;
+    border-left: 17px solid #DCF8C6;
+}
