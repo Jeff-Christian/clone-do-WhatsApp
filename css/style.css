@@ -122,3 +122,91 @@ html, body{
 #search::placeholder{
     color: #BDC1C3;
 }
+
+/* Contacts */
+
+.contacts-container{
+    height: auto;
+    background-color: #FFF;
+}
+
+.contact-box{
+    height: 72px;
+    position: relative;
+    box-sizing: border-box;
+    border-top: 1px solid #F2F2F2;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.contact-box:last-child{
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.contact-box:hover{
+    background-color: #f4f5f5;
+}
+
+.active-chat{
+    background-color: #e9ebeb;
+}
+
+.active-chat.contact-box:hover{
+    background-color: #e9ebeb;
+}
+
+.contact-box .user-photo{
+    width: 50px;
+}
+
+.user-info{
+    margin-left: 80px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+.user-info p, .message-info p{
+    margin: 0;
+}
+
+.user-name{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.user-messagepreview{
+    font-size: 14px;
+    color: #454545;
+}
+
+.fa-solid.fa-check-double{
+    margin-right: 5px;
+    color: #4FC3F7;
+}
+
+.message-info{
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    right: 20px;
+}
+
+.message-info .message-time{
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: #CCC;
+}
+
+.message-pending{
+    width: 19px;
+    height: 19px;
+    float: right;
+    font-size: 12px;
+    line-height: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: #FFF;
+    background-color: #09D261;
+    border-radius: 50%;
+}
