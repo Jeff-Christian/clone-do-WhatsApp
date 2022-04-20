@@ -3,3 +3,17 @@
 html, body{
     font-family: "Open Sans", sans-serif;
 }
+
+.container{
+    height: 100vh;
+    position: relative;
+}
+
+/* side bar */
+
+.sidebar{
+    width: 410px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
